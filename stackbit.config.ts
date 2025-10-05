@@ -6,7 +6,6 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [
     {
-      name: 'main',
       type: 'git',
       rootPath: __dirname,
       contentDirs: ['content'],
