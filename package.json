@@ -19,8 +19,8 @@
         "tailwindcss": "^4.0.12"
     },
     "devDependencies": {
-        "@stackbit/cms-git": "^1.0.30",
-        "@stackbit/types": "^2.1.11",
+        "@stackbit/cms-git": "^0.0.14",
+        "@stackbit/types": "^2.1.14",
         "@tailwindcss/typography": "^0.5.16",
         "@types/glob": "^8.1.0",
         "@types/react": "^19.0.1",
