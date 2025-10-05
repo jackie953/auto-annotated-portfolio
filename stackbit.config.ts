@@ -6,9 +6,10 @@ export default defineStackbitConfig({
   nodeVersion: '18',
   contentSources: [
     {
+      name: 'main',
       type: 'git',
-      rootPath: '.',
-      contentDirs: ['content', 'data'],
+      rootPath: __dirname,
+      contentDirs: ['content'],
       models: [],
       assetsConfig: {
         referenceType: 'static',
@@ -17,9 +18,5 @@ export default defineStackbitConfig({
         publicPath: '/'
       }
     }
-  ],
-  models: {},
-  mapModels: ({ models }) => {
-    return models;
-  }
+  ]
 });
